@@ -1,1 +1,1 @@
-# mitmedialba-ai-tutor-RAG
+# mitmedialab-pytutor-rag
