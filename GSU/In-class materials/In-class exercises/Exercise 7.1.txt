@@ -1,0 +1,38 @@
+# Exercise 7.1
+
+
+(Objectives 7.1, 7.2, 7.3)
+
+# 1) Project Topics Discussion:
+
+Here is a list of project topics from your proposal. Pick three project topics and discuss if we should use lists in the program:
+
+1. a) A student health program that allows students to track their daily health status.
+2. b) Text-based online banking system.
+3. c) Contact Book for digital device users.
+4. d) A Gift Recommendation program to help users find the perfect gift for the receiver.
+5. e) A Password generator
+6. f) Rock, Paper, Scissors game
+
+# 2) Create Two Lists:
+
+a) A list of company names:
+
+- Amazon
+- Google
+- Facebook
+- IBM
+
+b) A list of stock prices:
+
+- 340.5
+- 400
+- 230
+- 198
+
+Display the following information:
+
+- Max stock price
+- Min stock price
+- Number of companies
+- Sum of stock prices

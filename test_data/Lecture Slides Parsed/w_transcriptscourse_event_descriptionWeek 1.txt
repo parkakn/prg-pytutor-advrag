@@ -1,0 +1,42 @@
+### Summary of Lecture 1 - Introduction to Programming with Python
+
+#### Objectives
+This week’s lecture focused on several key objectives:
+1. **Computer Fundamentals**: Understanding the concepts of computer hardware, programs, and operating systems.
+2. **History of Python**: Exploring the background and development of the Python programming language.
+3. **Basic Python Syntax**: Learning the fundamental syntax used in Python programming.
+4. **Hands-on Python Experience**: Writing and executing simple Python programs.
+
+#### Key Topics Covered
+
+1. **What is a Computer?**
+   - **Hardware**: Physical components of a computer, illustrated with images of monitors, keyboards, and internal components like CPUs and motherboards.
+   - **Software**: Refers to programs that run on hardware, emphasizing the need for operating systems like Windows, Linux, and Mac OS.
+
+2. **Operating Systems**
+   - Defined as programs that manage a computer's activities, acting as an intermediary between applications and hardware.
+
+3. **Types of Programming Languages**
+   - **Machine Language**: The lowest level, consisting of binary code.
+   - **High-Level Language**: More user-friendly, with syntax resembling English. Examples include Python, Java, and C++.
+
+4. **Translating Code**
+   - Overview of how source code is converted to machine code using interpreters (e.g., Python) and compilers (e.g., Java). Examples are provided for each type.
+
+5. **Python for General Purpose**
+   - Highlighting Python’s versatility in various domains such as web development, data processing, and critical applications like those used by NASA.
+
+6. **Object-Oriented Programming (OOP)**
+   - Discussed Python’s OOP capabilities, which promote code reusability through the use of classes and objects.
+
+7. **The History of Python**
+   - Python's inception in 1990 by Guido van Rossum, with an explanation of the differences between Python 2 and Python 3.
+
+#### Practical Exercises
+- Students were guided through steps to install Python, including writing and running simple scripts. Exercises illustrated:
+   - Writing programs in both interactive and script modes.
+   - Simple operations and expressions in Python.
+   - Creating multiple Python programs to display messages and compute expressions.
+
+### Conclusion
+The lecture provided foundational knowledge about computers, programming languages, and specifically Python, along with hands-on experience in writing code. This understanding sets the stage for deeper learning in subsequent classes.

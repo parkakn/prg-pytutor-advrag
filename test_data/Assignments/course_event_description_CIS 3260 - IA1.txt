@@ -1,0 +1,35 @@
+# Summary of Assignment 1 - Introduction to Programming
+
+## General Purpose:
+The assignment is designed to introduce students to fundamental programming concepts using Python, enhance their problem-solving skills, and develop their understanding of debugging and error resolution in programming.
+
+## Main Topics Covered:
+1. **Basic Python Syntax and Output**:
+   - Students will create simple programs to display messages, becoming familiar with Python syntax and output functions.
+
+2. **Error Identification and Resolution**:
+   - The assignment emphasizes the common experience of encountering errors (syntax, runtime, logical), requiring students to document and analyze these errors as part of their learning process.
+
+3. **Basic Computations and User Input**:
+   - Task 1 requires the calculation of average velocity based on user-provided input, promoting skills in capturing input and performing calculations.
+
+4. **Structured Documentation**:
+   - Students are instructed to comment their code for clarity and maintain a documented log of their programming experience, reinforcing good programming practices.
+
+## Learning Objectives:
+- **Understanding of Programming Errors (1.4, 1.5, 1.6)**:
+   - Identify and categorize programming errors, including syntax, runtime, and logical errors.
+   - Learn techniques for debugging and resolving these errors.
+
+- **Mathematical Operations and Input Handling (2.2, 2.4, 2.6, 2.8)**:
+   - Execute basic mathematical operations and manage user input effectively.
+
+- **Programming Style and Documentation (1.5)**:
+   - Emphasize the importance of clear coding practices and proper program documentation.
+
+## Assignment Components:
+- Each student must submit multiple Python programs and a comprehensive document detailing their programming processes, errors encountered, and resolutions.
+- Programs must follow a specific naming convention and include appropriate comments.
+
+## Practical Applications:
+- Students will experience hands-on coding, reinforcing theoretical concepts from the course and developing practical programming skills.

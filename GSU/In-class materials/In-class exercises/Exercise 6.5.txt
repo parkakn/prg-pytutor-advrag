@@ -1,0 +1,14 @@
+# Exercise 6.5
+
+
+(Objectives 6.7)
+
+Create two python programs Greet.py and TestGreet.py at the same directory.
+
+Greet.py and TestGreet.py have lines as below:
+
+|Greet.py|TestGreet.py|
+|---|---|
+|def greet(): print("Good morning") def greetName(name): print("Good morning",name) def greetTwice(): print("Good morning") print("Good morning") |greet() Greet.greet("John") Greet.greetTwice() |
+
+Run TestGreet.py. Are you given errors? How to correct them?

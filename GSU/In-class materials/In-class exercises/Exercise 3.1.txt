@@ -1,0 +1,16 @@
+# Exercise 3.1
+
+
+# (Objective 3.1)
+
+Take two numbers and check whether the sum is greater than 5, less than 5, equal to 5; and whether the sum is odd. Complete the program below by filling in the blanks.
+
+print("Enter first number")
+first = int(input())
+print("Enter second number")
+second = int(input())
+# Blank 1
+print("Sum is greater than 5:", sum > 5)
+print("Sum is equal to 5:", # Blank 2)
+print("Sum is less than 5:", # Blank 3)
+print("Sum is odd:", # Blank 4)

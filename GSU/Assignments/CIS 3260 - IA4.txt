@@ -1,0 +1,153 @@
+# CIS 3260 – Introduction to Programming Individual Assignment 4
+
+Submission:
+
+- Add your full name and email address as comments on top of each python program. Add appropriate comments at other locations of your python programs for readability.
+- Name your python program as IA4Q#.py. For example, for question #1, your program should have a name IA4Q1.py
+- For each question, put corresponding answers in a word document. Name your word document as IA4.doc
+- Submit following items into iCollege -&gt; Assessment -&gt; Assignment 4
+- IA4.doc
+- IA4Q1.py
+- IA4Q2.py
+- IA4Q3.py
+
+Some Comments from your instructor:
+
+I highly recommend you use PyCharm to write following two programs. You can open existing python project and create two new python files IA4Q1.py, IA4Q2.py and IA4Q3.py.
+
+# Part I:
+
+Please pre-view the Week 8 lecture recording available on iCollege -&gt; Course Content -&gt; Slides by Monday, Oct. 9. After watching, kindly answer two questions below.
+
+A. [2 points] The time you viewed the recording.
+
+B. [2 points] The duration it took to watch the entire video.
+
+# Part II:
+
+1. Objectives: 4.1
+
+1. [32 points] You are going to develop a regular polygon area calculator. A regular polygon is an n-sided polygon in which all sides are of the same length and all angles have the same degree (i.e., the polygon is both equilateral and equiangular). The formula for computing the area of a regular polygon is
+
+area = n * s2 / (4 * tan(π/n))
+
+Here, s is the length of a side. This calculator prompts the user to enter the number of sides and their length of a regular polygon and displays its area (rounded to two decimal places).
+
+Sample Run:
+
+Enter the number of sides: 5
+
+Enter the side: 6.5
+---
+# The area of the polygon is 72.69
+
+# A. [4 points] System Analysis: What is(are) the input(s) and output(s)?
+
+# B. [2 points] How to represent a π value using Python math library?
+
+# C. [2 points] List the math function(s) to help us calculate the area.
+
+# D. [3 points] System Design: List the steps to get output(s) from input(s)
+
+# E. [5 points] Write your program and put your source code here.
+
+# F. [2 points] A screenshot of the output of program
+
+# 2) Share with us TWO errors you experienced when writing this program. [ It is common to experience errors. I will be surprised if you do not see any errors. In case this happens, you can make some errors by yourself.]
+
+# I. Error 1
+
+# A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?
+
+# B. [2 pts] How you resolve it?
+
+# C. [2 pts] How much time you spent to resolve it?
+
+# II. Error 2
+
+# A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?
+
+# B. [2 pts] How you resolve it?
+
+# C. [2 pts] How much time you spent to resolve it?
+
+# 2. [ Objectives: 3.1-3.7,4.2,4.6]
+
+# 1) [34 points] Let us develop an application. It allows user to enter a letter grade A/a, B/b, C/c, D/d , and then displays its corresponding numeric value 90, 80, 70, 60.
+
+Sample Run 1Enter a letter grade: BThe numeric value for grade B is 80
+
+Sample Run 2Enter a letter grade: bThe numeric value for grade b is 80
+
+Sample Run 3Enter a letter grade: TT is an invalid grade
+
+# A. [3 points] System Analysis: What is(are) the input(s) and output(s)?
+
+# B. [5 points] Assume you are going to use a MULTIPLE way decision selection statement. What should be the condition (in English) for displaying a number 90? How to represent it using a Boolean expression with in operator in Python?
+
+# C. [5 points] System Design: List the steps to get output(s) from input(s)
+
+# D. [5 points] Write your program and put your source code here.
+
+# E. [2 points] A screenshot of the output of program
+---
+# 2) Share with us TWO errors you experienced when writing this program.
+
+I. Error 1A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?B. [2 pts] How you resolve it?C. [2 pts] How much time you spent to resolve it? 3 ptsII. Error 2A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?B. [2 pts] How you resolve it?C. [2 pts] How much time you spent to resolve it?
+
+# 3. Objectives: 3.1-3.7, 4.2, 4.7
+
+# 1) [34 points] Assume you are going to develop a software to display number of days in the month.
+
+The software asks the user to enter the year and the first three letters of a month name (with the first letter in uppercase), then displays the number of days in the month.
+
+Hint: February has 29 days in a leap year. A year is a leap year if either of the following conditions is satisfied:
+
+- The year is multiple of 400.
+- The year is multiple of 4 and not multiple of 100.
+
+Sample Run 1
+
+Enter a year: 2001Enter a month: JanJan 2001 has 31 days
+
+Sample Run 2
+
+Enter a year: 2000Enter a month: FebFeb 2000 has 29 days
+
+Sample Run 3
+
+Enter a month: 2001Enter a month: janjan is not a correct month name
+
+# A. [5 points] System Analysis: What is(are) the input(s) and output(s)?
+
+# B. [5 points] How to use a Boolean expression to check if a year is leap? Assume we use a year variable.
+
+# C. [5 points] System Design: List the steps to get output(s) from input(s)
+
+# D. [5 points] Write your program and put your source code here.
+
+# E. [2 points] A screenshot of the output of program
+---
+# Share with us TWO errors you experienced when writing this program.
+
+# Error 1
+
+A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?B. [2 pts] How you resolve it?C. [2 pts] How much time you spent to resolve it?
+
+# Error 2
+
+A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?B. [2 pts] How you resolve it?C. [2 pts] How much time you spent to resolve it?
+
+# Objectives:
+
+# Week 4
+
+# Chapter 3
+
+3.1 To write Boolean expressions using relational operators (§3.2).3.2 To program with Boolean expressions (§3.3).3.3 To implement selection control using one-way if statements (§3.4).3.4 To implement selection control using two-way if-else statements (§3.5).3.5 To implement selection control with nested if and multi-way if-elif-else statements (§3.6).3.6 To combine conditions using logical operators (and, or, and not) (§3.10).3.7 To use selection statements with combined conditions (§§3.11–3.12).
+
+# Week 7
+
+# Chapter 4
+
+4.1 To solve mathematics problems by using the functions in the math module (§4.2)4.2 To represent and process strings and characters (§4.3).4.3 To encode characters using ASCII and Unicode (§4.3.1).4.4 To use the ord function to obtain a numerical code for a character and the chr function to convert a numerical code to a character (§4.3.2).4.5 To represent special characters using the escape sequence (§4.3.3).4.6 To test substrings using the in and not in operators (§4.3.8).4.7 To compare strings (§4.3.9).4.8 To use string functions min, max, and len (§4.3.10).

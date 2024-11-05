@@ -1,0 +1,65 @@
+# Course Summary: CIS 3260 Introduction to Programming - Online (Fall 2023)
+
+**Instructor Information:**
+- **Instructor:** Dr. Yuan Long
+- **Contact:** ylong4@gsu.edu | Room 1732, 55 Park Place | 404-413-7385
+- **Office Hours:** Wednesday 1:30 am to 3:00 pm (virtual option available)
+
+**Class Schedule:**
+- **Meeting Time:** Tuesday 7:15 pm to 9:45 pm via Zoom
+- **Zoom Link:** [join here](https://us06web.zoom.us/j/5066705770), Passcode: 123456
+
+---
+
+### Course Overview:
+This online introductory programming course focuses on Python and is designed for students who have completed CIS 2010 with at least a grade of C. It covers fundamental programming concepts, including Object-Oriented Programming (OOP) principles and practical application of these concepts through projects and assignments.
+
+### Course Objectives:
+Upon completion, students will be able to:
+1. Create, debug, execute, and test Python applications.
+2. Apply OOP concepts (encapsulation, inheritance, polymorphism) in Python class implementations.
+
+### Course Materials:
+- **Main Textbook:** Y. Daniel Liang, “Introduction to Python Programming and Data Structures 3e”
+- **Supplementary Textbooks:** Options include "Think Python" and "Learning Python".
+- **Platforms:** Coding Rooms for practical exercises.
+
+### Grading Components:
+| Component                                      | Type       | Percentage          |
+|------------------------------------------------|------------|---------------------|
+| Two exams (midterm & final)                    | Individual | 25% + 30%           |
+| Five Quizzes (lowest dropped)                   | Individual | 10%                 |
+| Eight Individual Assignments (lowest dropped)   | Individual | 14%                 |
+| Group Assignments (2 total, 3% each)           | Group      | 6%                  |
+| Group project                                   | Group      | 8%                  |
+| Career Advancement (CIS 3205E)                  | Individual | 3%                  |
+| **Total**                                      |            | **100%**            |
+
+### Attendance Policy:
+- Required to attend all classes; one absence may be allowed with prior notification.
+- Active participation with webcams on is expected.
+
+### Class Format:
+- Synchronous online classes with structured mini-lectures and interactive exercises to facilitate learning.
+
+### Assignments and Exams:
+- **No make-up exams** except for extreme emergencies; late assignments accepted within 24 hours with a 10% penalty.
+- Team and individual assignments are integral, with peer evaluations required for group projects.
+
+### Academic Integrity:
+- Strict adherence to academic honesty is enforced. Plagiarism leads to serious penalties, including grade penalties and dishonesty charges.
+
+---
+
+### Tentative Schedule:
+- **Week 1:** Course Overview & Introduction to Python 
+- **Weeks 2-5:** Core Python concepts including programming structure, conditional statements, functions, and loops.
+- **Week 6:** Midterm Exam covering initial topics.
+- **Weeks 7-11:** Advanced topics, including lists, objects, and classes.
+- **Week 16:** Final Exam.
+
+Note: The syllabus may undergo changes; students are responsible for updates communicated in class or through the course website.
+
+---
+
+This summary encapsulates the essential details of the CIS 3260 Introduction to Programming syllabus, providing a clear layout for prospective students regarding course expectations, structure, and assessments.

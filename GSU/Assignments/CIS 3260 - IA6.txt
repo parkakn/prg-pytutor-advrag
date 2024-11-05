@@ -1,0 +1,188 @@
+# CIS 3260 – Introduction to Programming Individual Assignment 6
+
+Submission:
+
+- Add your full name and email address as comments on top of each python program. Add appropriate comments at other locations of your python programs for readability.
+- Name your python program as IA6Q#.py. For example, for question #1, your program should have a name IA6Q1.py
+- For each question, put corresponding answers in a word document. Name your word document as IA6.doc
+- Submit following items into iCollege -&gt; Assessment -&gt; Assignment 6
+- IA6.doc
+- IA6Q1.py
+- IA6Q2.py
+- IA6Q3.py
+
+Some Comments from your instructor:
+
+I highly recommend you use PyCharm to write following two programs. You can open existing python project and create two new python files IA6Q1.py, IA6Q2.py and IA6Q3.py.
+
+# 1. Objectives: 5.1, 5.2, 5.3
+
+1. [33 points] Write a program that reads an unspecified number of integers, determines how many even numbers have been read, and computes the average of the input values (not counting zeros). Your program ends with the input "End". It displays the average as a floating-point number and rounds it to 2 decimal places.
+
+Sample Run 1
+
+|Enter an integer, the input ends if user enters "End":| |1|
+|---|---|---|
+|Enter an integer, the input ends if user enters "End":|2| |
+|Enter an integer, the input ends if user enters "End":|-1| |
+|Enter an integer, the input ends if user enters "End":|3| |
+|Enter an integer, the input ends if user enters "End":|0| |
+| |Enter an integer, the input ends if user enters "End":|End|
+|The number of even numbers is 2| | |
+|The average is 1.0| | |
+
+Sample Run 2
+
+|Enter an integer, the input ends if user enters "End":|End|
+|---|---|
+|No numbers are entered| |
+
+A. 5 points System Analysis: What is(are) the input(s) and output(s)?
+
+B. 3 points Assume we plan to use loop in the program, describe what action should be repeated in English.
+
+C. 4 points Assume we have stored one input number into an integer variable data, how to write the condition used in the while loop header in Python?
+
+D. 3 points What step should be added to control the loop to let the condition become true eventually? Please describe this step in English.
+---
+# 2. [ Objectives: 5.3,5.4]
+
+# 1) [36 points] Assume letters A, E, I, O, and U as the vowels. Write a program that prompts the user to enter a string and displays the number of vowels and consonants in the string. We ignore cases when counting frequency of vowels and consonants.
+
+Hint: use a for loop; in range function, the stop should be the length of entered string.
+
+# Sample Run
+
+Enter a string: Programming is fun
+
+The number of consonants is 11
+
+The number of vowels is 5
+
+# A. [5 points] System Analysis: What is(are) the input(s) and output(s)?
+
+# B. [3 points] Describe what action should be repeated in English.
+
+# C. [4 points] Assume we use an integer variable i at the for loop header, how to write the for loop header.
+
+# D. [5 points] System Design: List the steps to get output(s) from input(s) in English
+
+# E. [5 points] Write your program and put your source code here.
+
+# F. [2 points] A screenshot of the output of program
+
+# 2) Share with us TWO errors you experienced when writing this program.
+
+# I. Error 1
+
+A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?
+
+B. [2 pts] How you resolve it?
+
+C. [2 pts] How much time you spent to resolve it? 3 pts
+
+# II. Error 2
+
+A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?
+
+B. [2 pts] How you resolve it?
+
+C. [2 pts] How much time you spent to resolve it?
+---
+# 1) ISBN-9 to ISBN-10 Converter Program
+
+Let us repeat the question from IA 5 below. But this time, we will use a for loop to make our program shorter and define a function to make our program be more organized. Hint: in the range function, the stop should be 9.
+
+Assume you are working in a library. You are given a task to develop an ISBN-9 to ISBN-10 converter. An ISBN-10 (International Standard Book Number) consists of 10 digits: d1 d2 d3 d4 d5 d6 d7 d8 d9 d10. The last digit, d10, is a checksum, which is calculated from the other nine digits using the following formula:
+
+(d1*1 + d2*2 + d3*3 + d4*4 + d5*5 + d6*6 + d7*7 + d8*8 + d9*9) % 11 = 2
+
+If the checksum is 10, the last digit is denoted as X according to the ISBN-10 convention. Write a program that prompts the user to enter the first 9 digits and displays the 10-digit ISBN (including leading zeros).
+
+Sample Run 1
+
+Enter the first 9 digits of an ISBN as a string: 3601267
+
+Incorrect input. It must have exact 9 digits
+
+Sample Run 2
+
+Enter the first 9 digits of an ISBN as a string: 013601267
+
+The ISBN-10 number is 0136012671
+
+Sample Run 3
+
+Enter the first 9 digits of an ISBN as a string: 013031997
+
+The ISBN-10 number is 013031997X
+
+# A. Define the header of the function for ISBN conversion
+
+[3 points] Assume we are going to develop a function. It should take one string argument (the 9-digit ISBN) and return a string value (the 10-digit ISBN) as the result. How to define the header of this function? You can use any names for the function name and parameter name.
+
+# B. Call the function for ISBN conversion
+
+[4 points] How to call the function at question A? (Please provide one example.)
+
+# C. Define the body of the function for ISBN conversion
+
+[5 points] How to define the body of the function at question A? (Please write down a complete function definition including both header and body). Note: The function does not print out any messages.
+
+# D. Write a complete program for ISBN conversion
+
+[5 points] Write a complete program which creates the function and calls the function to meet the requirements.
+
+# E. Error Resolution
+
+[2 points] Share with us TWO errors you experienced when writing this program.
+
+# I. Error 1
+
+[2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?
+
+[2 pts] How you resolve it?
+
+[2 pts] How much time you spent to resolve it? 3 pts
+---
+# II. Error 2
+
+A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?
+
+B. [2 pts] How you resolve it?
+
+C. [2 pts] How much time you spent to resolve it?
+
+# Objectives:
+
+Week 4Chapter 33.1 To write Boolean expressions using relational operators (§3.2).3.2 To program with Boolean expressions (§3.3).3.3 To implement selection control using one-way if statements (§3.4).3.4 To implement selection control using two-way if-else statements (§3.5).3.5 To implement selection control with nested if and multi-way if-elif-else statements (§3.6).3.6 To combine conditions using logical operators (and, or, and not) (§3.10).3.7 To use selection statements with combined conditions (§§3.11–3.12).
+
+Week 7Chapter 44.1 To solve mathematics problems by using the functions in the math module (§4.2)4.2 To represent and process strings and characters (§4.3).4.3 To encode characters using ASCII and Unicode (§4.3.1).4.4 To use the ord function to obtain a numerical code for a character and the chr function to convert a numerical code to a character (§4.3.2).4.5 To represent special characters using the escape sequence (§4.3.3).4.6 To test substrings using the in and not in operators (§4.3.8).4.7 To compare strings (§4.3.9).4.8 To use string functions min, max, and len (§4.3.10).
+
+Week 8Chapter 44.9 To obtain a character in a string using the index operator [] (§4.3.11).4.10 To obtain a substring in a string using the slicing operator [start : end] (§4.3.12).4.11 Use repetition operator * to duplicate strings (§4.3.6).
+---
+# Chapter 5
+
+5.1
+To write programs for executing statements repeatedly using a while loop (§5.2).
+
+Week 9
+
+# Chapter 5
+
+|5.2|To control a loop with the user’s confirmation and a sentinel value (§5.5).|
+|---|---|
+|5.3|To develop loops following the loop design strategy (§5.4).|
+|5.4|To use for loops to implement counter-controlled loops (§5.6).|
+|5.6|To implement program control with break. (§5.10).|
+
+Week 10
+
+# Chapter 6
+
+|6.1|To understand what is a function (§6.1)|
+|---|---|
+|6.2|To define functions with formal parameters (§6.2).|
+|6.3|To distinguish the differences between the functions that return and do not return a value (§6.4).|
+|6.4|To invoke functions with actual parameters (i.e., arguments) (§6.3).|
+|6.5|To determine the scope of variables (§6.8)|

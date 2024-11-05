@@ -1,0 +1,28 @@
+# Exercise 6.4
+
+
+# (Objectives 6.6)
+
+1) Given the following function
+
+def nPrint(message, n):
+while n &gt; 0:
+print(message)
+n -= 1
+
+What will be displayed by the call nPrint(n=4, message='a')?
+
+- A. aaaaa
+- B. aaaa
+- C. aaa
+- D. invalid call
+- E. infinite loop
+
+2) Assume function f is defined below. Check if a) and b) are correct function calls.
+
+def f(p1, p2, p3):
+return p1=p2+p3
+
+a) f(30, p2 = 4, 10)
+
+b) f(30, p2 = 4, p3 = 10)

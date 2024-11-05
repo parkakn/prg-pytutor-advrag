@@ -1,0 +1,17 @@
+# Exercise 7.4
+
+
+(Objectives 7.8)
+
+1. Assume you are given a list of flight tickets prices to NYC.
+
+lst=[150,50,30,45,70,100]
+For each task below, please write a statement to manipulate the list lst.
+
+Append a new ticket price 45
+2. Return the number of occurrence of value 45
+3. Return the index of the first value 50
+4. Insert value 15 at index 2
+5. Remove the first occurrence of value 50
+6. Remove the element at index 3
+7. Sort the flight ticket prices in ascending order

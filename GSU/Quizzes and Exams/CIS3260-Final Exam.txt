@@ -1,0 +1,346 @@
+```markdown
+# CIS 3260 – Final Exam
+
+Your Name: __________________________________
+Your Panther ID: _____________________________
+
+## Part 1 – Multiple Choices [30 points]
+
+1) [2 points] The function range(0,5) returns a sequence ______________.
+
+A. 0, 1, 2, 3, 4
+B. 1, 2, 3, 4
+C. 0, 1, 2, 3, 4, 5
+D. 1, 2, 3, 4, 5
+
+2) [2 points] Consider the following incomplete code. The missing function body should be _________.
+
+```python
+def f(num):
+# Missing function body
+
+print(f(5))
+```
+
+A. return number
+B. return num
+C. print("number")
+D. print(number)
+E. return "num"
+
+3) [2 points] A variable defined inside a function is referred to as __________.
+
+A. a local variable
+B. block variable
+C. global variable
+D. function variable
+```
+---
+### 4) Which of the following loops correctly computes 1/2 + 2/3 + 3/4 + ... + 99/100?
+
+A:
+```python
+sum = 0
+for i in range(1, 99):
+sum += i / (i + 1)
+
+print("Sum is", sum)
+```
+
+B:
+```python
+sum = 0
+for i in range(1, 100):
+sum += i / i + 1
+
+print("Sum is", sum)
+```
+
+C:
+```python
+sum = 0
+for i in range(1, 100):
+sum += i / (i + 1)
+
+print("Sum is", sum)
+```
+
+D. None of them
+
+### 5) Welcome to Python".split('&') is ________
+
+E. ("Welcome", "to", "Python")
+
+### 6) Assume m = [[1, 2, 3], [4], [7, 8, 9]], what is m[1][0]?
+
+B. 4
+
+### 7) A function _________.
+---
+### Questions
+
+1. What must always have a return statement to return multiple values?
+- A. must always have a return statement to return multiple values
+- B. must have at least one parameter
+- C. must always have a return statement to return a value
+- D. may have no parameters
+
+2. Given the following function, what will be displayed by the call nPrint('a', 5)?
+```python
+def nPrint(message, n):
+while n > 0:
+print(message)
+n -= 1
+```
+- A. aaaaa
+- B. aaaa
+- C. aaa
+- D. infinite loop
+- E. invalid call
+
+3. The header of a function consists of ____________.
+- A. function name and parameter list
+- B. parameter list
+- C. function name
+
+4. Suppose list1 = [1, 2, 3], what is the output of the following code?
+```python
+for i in list1:
+print(i * 2, end = ' ,')
+```
+- A. 246
+- B. 2 4 6
+- C. [2, 4, 6]
+- D. 2, 4, 6,
+
+5. Which of the following should be defined as a function without return?
+- A. Write a function that converts a lowercase letter to uppercase letter.
+- B. Write a function that checks whether a number is from 1 to 50.
+- C. Write a function that returns a random integer from 1 to 50.
+- D. Write a function that prints characters from 'a' to 'm'.
+
+6. Analyze the following code.
+---
+### Exam Questions
+
+1. What is the output of the following Python code snippet?
+
+```python
+count = 0
+while count < 100:
+# Point A
+print("Welcome to Python!")
+count += 1
+# Point B
+
+# Point C
+```
+
+A. `count < 100` is always True at Point A
+B. `count < 100` is always True at Point B
+C. `count < 100` is always False at Point B
+D. `count < 100` is always True at Point C
+
+2. The expression "Good " + 1 + 2 + 3 evaluates to ________.
+
+A. Good123
+B. Good6
+C. Good 123
+D. Illegal expression
+
+3. The Unicode of 'a' is 97. What is the Unicode for 'c'?
+
+A. 96
+B. 97
+C. 98
+D. 99
+
+4. What will be displayed by the following code?
+
+```python
+myList = [1, 5, 5, 5, 5, 1]
+max = myList[0]
+indexOfMax = 0
+for i in range(1, len(myList)):
+if myList[i] > max:
+max = myList[i]
+indexOfMax = i
+
+print(indexOfMax)
+```
+
+A. 0
+B. 1
+C. 2
+D. 3
+E. 4
+
+### Part 2 – Fill in the Blanks [20 points]
+
+HTML:
+---
+### What are the results for following expressions in Python?
+
+Assume `s1=”Happy Holidays!”, s2=”2022”, t=[1,2,3,4]`
+
+1. `s1[1:2]`  ____________
+2. `s2.isdigit()`  ____________
+3. `s1.count(“o”)`  ____________
+4. `t.count(5)`  ____________
+5. `s1.isupper()`  ____________
+6. `s2*2`  ____________
+7. `len(t)`  ____________
+8. `max(t)`  ____________
+9. `t[-1]`  ____________
+
+---
+
+### Assume you are given a list as below,
+
+`lst=[150,50,30,45,70,100]`
+
+1. Write a statement to append a new value 90 at the end of lst
+
+______________________
+
+2. Write a statement to remove the first element of lst
+
+______________________
+
+3. Write a statement to check if lst has a value 30 in it or not (Display True or False as result)
+
+______________________
+
+---
+
+### Assume you are given two python programs Greet.py and TestGreet.py. They are at the same directory and have lines as below.
+---
+```markdown
+# Greet.py
+```python
+def greet():
+print("Good morning")
+
+def greetName(name):
+print("Good morning", name)
+
+def greetTwice():
+print("Good morning")
+print("Good morning")
+```
+
+```markdown
+Please call one function defined in `Greet.py` and display a message "Good morning everyone".
+
+4) [3 points] Read the following program. Which line has an error? How to correct it?
+
+1   def function():
+2       x = 4.5
+3       y = 3.4
+4       print(x)
+5       print(y)
+
+7   function()
+8   print(y)
+
+(1) [1 point] The line # with error: 8
+(2) [2 points] How to correct it: Move the `print(y)` statement inside the `function()` definition.
+
+Part 3 - Software Development [50 points]
+
+1) [14 points] Write a program that prompts the user to enter a string and then count the number of digits from the entered string.
+```
+---
+```markdown
+# Enter a string: cis3260
+## String cis3260 contains 4 digits
+
+### A. [2 points] System Analysis:
+#### What is(are) the input(s) and output(s)?
+Input(s):_________
+Output(s):___________
+
+### B. [2 points] The string method isdigit() checks if a given string consists of only digits or not. If variable c stores a single character, how to test if this character is digit or not? Please write down a Boolean expression in Python.
+
+### C. [4 points] System Design:
+#### List the steps to get output(s) from input(s)
+
+### D. [6 points] Write your program and put your source code here.
+```
+---
+```markdown
+# Question 2
+
+Suppose you are developing a tool to help people to obtain the leap years between a year range. Write a program that asks the user to enter the start (inclusive) and end (inclusive) year, then displays all the leap years between the entered range.
+
+- Enter start year: 2001
+- Enter end year: 2030
+
+The leap years between 2001 and 2030 are 2004, 2008, 2012, 2016, 2020, 2024, 2028
+
+Note: A year is a leap year if either of the following conditions is satisfied:
+- The year is a multiple of 400.
+- The year is a multiple of 4 and not a multiple of 100.
+
+## A. System Analysis
+
+### Input(s):
+- Start year
+- End year
+
+### Output(s):
+- Leap years between the entered range
+
+## B. Leap Year Check
+
+Assume a variable y stores a year between the given year range. To write the Boolean expression to check if a year y is a leap year or not in Python, you can use the conditions mentioned above.
+
+## C. Loop Explanation
+
+A loop will help you complete the program. We need to use a loop in this program to iterate through each year between the start and end year provided by the user. This allows us to check each year for leap year conditions and display the leap years accordingly.
+
+## D. System Design Steps
+
+List the steps to get output(s) from input(s).
+
+## E. Program Source Code
+
+```python
+start_year = int(input("Enter start year: "))
+end_year = int(input("Enter end year: "))
+
+leap_years = [year for year in range(start_year, end_year + 1) if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0)]
+
+print(f"The leap years between {start_year} and {end_year} are {', '.join(map(str, leap_years))}")
+```
+```
+---
+
+---
+```markdown
+# Develop a financial software to help analyze the stock prices
+
+- The program prompts the user to enter a list of stock prices on the same line, then asks the user to enter a list of company names on the new line. After that, it displays the average of stock prices and prints the name(s) of the company with the highest stock price.
+
+```
+Enter a list of Stock Prices: 23,100,33.3,40,100
+Enter a list of Company Names: App, Ora, Ban, Pea, Wat
+The average stock price is 49.26
+The highest stock price is 100.0, from Ora, Wat
+```
+
+## A. System Analysis
+- What is(are) the input(s) and output(s)?
+
+## B. Assume you would like to use a 1D list `name_list` to store a list of company names. If a variable `s` stores the user's input for the company names, how to put the names to the list `name_list` using `s`? Please write down one single line statement. [in Python]
+
+## C. 1D list will help you complete the program. Please explain why we need to use a list in this program. [In English]
+
+## D. System Design
+- List the steps to get output(s) from input(s)
+
+## E. Write your program and put your source code here.
+```python
+# Python code can be inserted here
+```
+---

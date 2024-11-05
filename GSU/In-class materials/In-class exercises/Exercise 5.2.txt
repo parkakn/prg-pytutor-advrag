@@ -1,0 +1,17 @@
+# Exercise 5.2
+
+
+# (Objective 5.2)
+
+1) Suppose the input is 2 3 4 5 0 (one number per line). What is the output of the following code?
+
+number = int(input("Enter an integer: "))
+max = number
+
+while number != 0:
+number = int(input("Enter an integer: "))
+if number > max:
+max = number
+
+print("max is", max)
+print("number", number)

@@ -1,0 +1,87 @@
+```markdown
+# Quiz 4
+
+1. Given a string s = "Programming is fun", what is s.startswith('Pro')?
+A. 0
+B. 1
+C. True
+D. False
+E. -1
+
+Answer: C
+
+2. Which of the following statements is the precise meaning for the statement n = '3'?
+A. n is a variable that references an object that holds int value 3.
+B. n is a variable that holds int value 3.
+C. n is a variable that references an object that holds a string "3".
+D. n is a variable that holds a string value "3"
+
+Answer: C
+
+3. Suppose that s1 and s2 are two strings, given as follows:
+s1 = "Welcome to Python"
+s2 = "123"
+What are the results of the following expressions?
+a. s1[1]        e
+b. s1[:2]       We
+c. s1[1:3]      el
+d. len(s2)      3
+e. s2*2         123123
+f. s1.count('e') 2
+g. s1.isalpha() False
+h. s1[0]>='A' and s1[0]<='Z' True
+
+Answer:
+a. e
+b. We
+c. el
+d. 3
+e. 123123
+f. 2
+g. False
+h. True
+```
+---
+```markdown
+1. Analyze the following code.
+
+count = 0
+while count < 100:
+# Point A
+print("Welcome to Python!")
+count += 1
+# Point B
+
+# Point C
+A.     count < 100 is      sometimes     True at Point C
+B.     count < 100 is      sometimes     True at Point B
+C.     count < 100 is      sometimes     True at Point A
+
+Answer:    B
+
+2. The   following loop displays _______________.
+
+for  i  in  range(1,    10):
+print(i, end = " ")
+
+A.     2 4 6 8 10
+B.     1 2 3 4 5 6 7 8 9
+C.     1 2 3 4 5 6 7 8
+D.     1 2 3 4 5
+E.     1 2 3 4 5 6 7
+
+Answer:    B
+
+3. What is the output of the following code?
+count = 1
+while count <      2:
+count += 1
+print(count, end = ' ')
+
+A.     1 2 3
+B.     2
+C.     2 3
+D.     1 2
+
+Answer:    B
+```

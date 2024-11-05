@@ -1,0 +1,18 @@
+# Exercise 3.5
+
+
+# (Objective 3.8)
+
+1. Write a program to read a body temperature in F. Display a message “Fever!” if the body temperature is greater than 100.4F; Otherwise, display “No fever”.
+
+# A. System Analysis:
+
+What is(are) the input(s) and output(s)?
+
+# B. Assume your manager asks you to complete this program by using a TWO way decision selection statement. What should be the condition? How to represent it using a Boolean expression (may use logical operator) in Python?
+
+# C. System Design:
+
+List the steps to get output(s) from input(s)
+
+# D. Write your program.

@@ -1,0 +1,68 @@
+## Summary of Week 5 Lecture for Introductory Programming Course
+
+### Lecture Objectives
+This week's lecture focused on implementing selection control methods in Python, specifically:
+- Using **nested if** and **multi-way if-elif-else** statements.
+- Combining conditions using **logical operators** (and, or, not).
+- Applying selection statements with multiple conditions.
+- Developing programs that effectively utilize selection statements.
+
+### Main Topics Covered
+
+1. **Multiple-way Decisions**
+   - Utilized to select one block of many to execute with and without an else clause.
+   - **Syntax**:
+     ```python
+     if <condition1>:
+         <statements>
+     elif <condition2>:
+         <statements>
+     else:
+         <statements>
+     ```
+
+2. **Flowchart Representation**
+   - Flowcharts were used to illustrate the flow of control decisions for both multi-way selection with and without an else clause.
+
+3. **Nested Decisions**
+   - Introduced the concept of nesting conditional statements to handle more complex selection scenarios.
+   - Example of nested decisions was demonstrated:
+     ```python
+     if x == y:
+         print('x and y are equal')
+     else:
+         if x < y:
+             print('x is less than y')
+         else:
+             print('x is greater than y')
+     ```
+
+4. **Logical Operators**
+   - Discussed how to simplify nested if statements using logical operators to combine conditions.
+   - Logical operators introduced include:
+     - `and`: True if both conditions are true.
+     - `or`: True if at least one condition is true.
+     - `not`: Negates the result of the condition.
+
+5. **Software Development Process**
+   - Explained the stages of software development: 
+     - **System Analysis**: Identifying input and expected output.
+     - **System Design**: Outlining steps from input to output, including conditions.
+     - **Implementation**: Writing the program in code.
+     - **Testing**: Validating the code is functioning as intended.
+
+### Challenges and Exercises
+- **Challenge 1**: Develop a program to check if an integer is positive.
+- **Challenge 2**: Write a program to determine if a temperature and humidity combination is "Abnormal" or "Normal".
+- **Challenge 3**: Create a simple food ordering program that prints prices based on user selection.
+
+### Important Concepts
+- **Selection Control Structures**: Helps in decision-making in programs.
+- Avoiding **nested decisions** when possible by leveraging logical operators to maintain readability.
+- Flowcharts and pseudocode as tools for planning and validating the logic before coding.
+  
+### Review and Preparation for Upcoming Assessment
+- The midterm will cover content from chapters 1-3, with emphasis on selection statements and logical operators.
+- Review in-class exercises, individual assignments, and previous quizzes for better preparation.
+
+This lecture emphasized the importance of understanding selection control for efficient programming and development practices. Students were encouraged to practice by creating their programs and to prepare adequately for the upcoming midterm assessment.

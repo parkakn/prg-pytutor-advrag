@@ -1,0 +1,219 @@
+# CIS 3260 – Introduction to Programming
+
+# Individual Assignment 7
+
+Submission:
+
+- Add your full name and email address as comments on top of each python program. Add appropriate comments at other locations of your python programs for readability.
+- Name your python program as IA7Q#.py. For example, for question #1, your program should have a name IA7Q1.py
+- For each question, put corresponding answers in a word document. Name your word document as IA7.doc
+- Submit following items into iCollege -&gt; Assessment -&gt; Assignment 7
+- IA7.doc
+- IA7Q1.py
+- IA7Q2Covert.py
+- IA7Q2Test.py
+
+Some Comments from your instructor:
+
+I highly recommend you use PyCharm to write following two programs. You can open existing python project and create two new python files IA7Q1.py, IA7Q2Covert.py and IA7Q2Test.py.
+
+# 1. Objectives: 6.1-6.5
+
+# 1) [33 points] Let us develop a tool to display number of days in years. We ask user to enter the start year and end year. Then our program should print out a table to show the corresponding results.
+
+Assume that you are requested to write a function that returns the number of days in a year. Then your program can call this function repeatedly and display the number of days in the years from the given range.
+
+Sample Run
+
+Enter a start year: 2000
+
+Enter an end year: 2005
+
+|year|days|
+|---|---|
+|2000|366|
+|2001|365|
+|2002|365|
+|2003|365|
+|2004|366|
+|2005|365|
+
+A. [5 points] How to define the header of the function returning the number of days in a year?
+
+You can use any names for the function and parameter.
+
+B. [5 points] How to define the body of the function at question A)? (Please write down a complete function definition including both header and body). Note: The function does not print out any messages.
+
+C. [5 points] How to call the function at question A)? (Please provide one example.)
+
+D. [5 points] Assume we use a for loop to display the table, how to write the for loop header.
+
+E. [5 points] Continue question D), how to write the for loop body.
+---
+# F. [8 points] Write your program and put your source code here.
+
+# G. [5 points] A screenshot of the output of program
+
+# 2) Share with us TWO error you experienced when writing this program.
+
+# I. Error 1
+
+A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?
+B. [2 pts] How you resolve it?
+C. [2 pts] How much time you spent to resolve it?
+
+# II. Error 2
+
+A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?
+B. [2 pts] How you resolve it?
+C. [2 pts] How much time you spent to resolve it?
+
+# 2. [ Objectives: 6.1-6.5，6.7]
+
+# 1) [36 points] Let us write two python programs “IA7Q2Covert.py” and “IA7Q2Test.py” in this programming task.
+
+“IA7Q2Covert.py” defines two functions celsiusToFahrenheit and fahrenheitToCelsius. The headers of functions are as below:
+
+|# Converts from Celsius to Fahrenheit|def celsiusToFahrenheit(celsius)|
+|---|---|
+|# Converts from Fahrenheit to Celsius|def fahrenheitToCelsius(fahrenheit) :|
+
+“IA7Q2Test.py” uses the functions from “IA7Q2Test.py”. “IA7Q2Test.py” asks the user to select a conversion task and enter a temperature as guided.
+
+Hint: The formulas for the conversion are:
+
+celsius = (5 / 9) * (fahrenheit – 32)
+
+fahrenheit = (9 / 5) * celsius + 32
+
+Sample Run
+
+1. Convert Celsius to Fahrenheit
+
+2. Convert Fahrenheit to Celsius
+
+Enter your choice (1 or 2): 1
+
+Enter a temperature in Celsius: 25
+
+Fahrenheit is 77
+---
+# Sample Run
+
+1. Convert Celsius to Fahrenheit
+
+2. Convert Fahrenheit to Celsius
+
+Enter your choice (1 or 2): 2
+
+Enter a temperature in Fahrenheit: 77
+
+Celsius is 25
+
+# A. [5 points] System Analysis:
+
+What is(are) the input(s) and output(s)? For program "IA7Q2Test.py"
+
+# B. [6 points] System Design:
+
+List the steps to get output(s) from input(s) in English for program "IA7Q2Test.py"
+
+# C. [6 points]
+
+How to use the functions from "IA7Q2Covert.py"? Describe the steps in English.
+
+# D. [8 points]
+
+Write your program "IA7Q2Covert.py" and put your source code here.
+
+# E. [8 points]
+
+Write your program "IA7Q2Test.py" and put your source code here.
+
+# F. [5 points]
+
+A screenshot of the output of the program
+
+# 2) Share with us TWO errors you experienced when writing this program.
+
+# I. Error 1
+
+A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?
+
+B. [2 pts] How you resolve it?
+
+C. [2 pts] How much time you spent to resolve it?
+
+# II. Error 2
+
+A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?
+
+B. [2 pts] How you resolve it?
+
+C. [2 pts] How much time you spent to resolve it?
+
+# Objectives:
+
+# Week 4
+
+# Chapter 3
+
+3.1 To write Boolean expressions using relational operators (§3.2).3.2 To program with Boolean expressions (§3.3).3.3 To implement selection control using one-way if statements (§3.4).3.4 To implement selection control using two-way if-else statements (§3.5).3.5 To implement selection control with nested if and multi-way if-elif-else statements (§3.6).3.6 To combine conditions using logical operators (and, or, and not) (§3.10).3.7 To use selection statements with combined conditions (§§3.11–3.12).
+---
+# Week 7
+
+# Chapter 4
+
+|4.1|To solve mathematics problems by using the functions in the math module (§4.2)|
+|---|---|
+|4.2|To represent and process strings and characters (§4.3).|
+|4.3|To encode characters using ASCII and Unicode (§4.3.1).|
+|4.4|To use the ord function to obtain a numerical code for a character and the chr function to convert a numerical code to a character (§4.3.2).|
+|4.5|To represent special characters using the escape sequence (§4.3.3).|
+|4.6|To test substrings using the in and not in operators (§4.3.8).|
+|4.7|To compare strings (§4.3.9).|
+|4.8|To use string functions min, max, and len (§4.3.10).|
+
+# Week 8
+
+# Chapter 4
+
+|4.9|To obtain a character in a string using the index operator [] (§4.3.11).|
+|---|---|
+|4.10|To obtain a substring in a string using the slicing operator [start : end] (§4.3.12).|
+|4.11|Use repetition operator * to duplicate strings (§4.3.6).|
+|4.12|To introduce objects and methods (§4.5).|
+|4.13|To introduce the methods in the str class (§4.6).|
+|4.14|To program using characters and strings (§4.7.1).|
+|4.15|To invoke the print function with the end argument (§4.3.4).|
+
+# Chapter 5
+
+5.1
+To write programs for executing statements repeatedly using a while loop (§5.2).
+
+# Week 9
+
+# Chapter 5
+
+|5.2|To control a loop with the user’s confirmation and a sentinel value (§5.5).|
+|---|---|
+|5.3|To develop loops following the loop design strategy (§5.4).|
+|5.4|To use for loops to implement counter-controlled loops (§5.6).|
+|5.6|To implement program control with break. (§5.10).|
+
+# Week 10
+
+# Chapter 6
+---
+# Week 11
+
+|6.1|To understand what is a function (§6.1)|
+|---|---|
+|6.2|To define functions with formal parameters (§6.2).|
+|6.3|To distinguish the differences between the functions that return and do not return a value (§6.4).|
+|6.4|To invoke functions with actual parameters (i.e., arguments) (§6.3).|
+|6.5|To determine the scope of variables (§6.8)|
+|6.6|To invoke a function using positional arguments or keyword arguments (§6.5)|
+|6.7|To invoke functions defined from another program (§6.7)|
+|6.8|To apply the concept of function in software development and design (§6.13)|

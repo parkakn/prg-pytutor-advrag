@@ -8,7 +8,7 @@ class documentparser:
     # Document file paths (doc), Type of Document (doc_type)
 
     # Parser function
-    def document_to_markdown(doc,doc_type):
+    def document_to_markdown(doc, doc_type, model):
         # Determine type of documnet 
         # Parsing Instructions 
         if doc_type == "lab manual":
@@ -46,13 +46,22 @@ class documentparser:
             If you encounter a flowchart or an image, give a summary or explanation of it while also extracting text and structure of it. If possible, also related to the concept being conveyed or discussed.  
             Also, try to extract the structure, hierarchy, and formatting of the contents where texts exist.
             """
+        elif doc_type == "quizzes and exams":
+            parsingInstruction = """
+            Extract the structure and text of the following text in a markdown format. 
+            The text contains questions of different forms, such as multiple choice, fill-in-the-blanks, and short answers, and also includes code snippets. Make sure to recognize these and represent them accurately as in the provided document. 
+            The provided document is also broken into several pages. Make sure to represent the number of the question accurately across multiple pages as shown in the document.  
+            """
+        else: 
+            parsingInstruction = ""
 
         # Set up parser: Multi-modal LLM using LlamaIndex's LlamaParse 
+        # model = openai-gpt4o
         parser_gpt4o = LlamaParse(
                             result_type="markdown",
                             parsing_instruction=parsingInstruction,
                             use_vendor_multimodal_model=True,
-                            vendor_multimodal_model="openai-gpt4o",
+                            vendor_multimodal_model=model,
                             invalidate_cache = True
                         )
 

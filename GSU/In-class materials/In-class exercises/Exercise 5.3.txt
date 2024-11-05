@@ -1,0 +1,30 @@
+# Exercise 5.3
+
+
+# (Objective 5.3)
+
+Suppose that the tuition for a university is $10,000 this year and increases 5% every year. List the tuitions in the next one to ten years (using a while loop).
+
+1. System Design (List steps from input to output in English)
+2. Implementation
+
+**Tuition Over the Years**
+**Tuition Over the Years**
+|Year|Tuition|
+|---|---|
+|1|..|
+|2|..|
+|# <br/># <br/><br/><br/># Exercise 5.3<br/><br/><br/># Exercise 5.3<br/># (Objective 5.3)<br/>Suppose that the tuition for a university is $10,000 this year and increases 5% every year. List the tuitions in the next one to ten years (using a while loop).<br/>1. <br/>System Design (List steps from input to output in English)
+2. <br/>Implementation
+<br/><br/>Year|Tuition|
+|1|..|
+|2|..|
+|3|..|
+|3|..|
+|4|..|
+|5|..|
+|6|..|
+|7|..|
+|8|..|
+|9|..|
+|10|..|

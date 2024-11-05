@@ -1,0 +1,67 @@
+```markdown
+# Quiz 3
+
+1. The Unicode of 'c' is 99. What is the Unicode for 'e'?
+A. 98
+B. 100
+C. 101
+D. 99
+
+Answer: C
+
+2. What will be displayed by print(ord('7') - ord('6'))?
+A. 26
+B. 2
+C. 1
+D. 25
+
+Answer: C
+
+3. Is pow(a, b) the same as b ** a?
+A. YES
+B. NO
+
+Answer: B
+
+4. Which of the following statement prints smith\exam1\test.txt?
+A. print("smith"\exam1"\test.txt")
+B. print("smith\exam1\test.txt")
+C. print("smith\\exam1\\test.txt")
+D. print("smith\"exam1\"test.txt")
+
+Answer: C
+
+5. Assume we have assigned values to a list of variable below.
+s1 = "Welcome to Python"
+s2 = "to"
+x = -1
+What are the results of the following expressions?
+(1) math.sqrt(9) ____Blank #1____
+(2) min(2, 1, x) ____Blank #2____
+(3) max(2, 1, x) ____Blank #3____
+(4) math.fabs(-3.14) ____Blank #4____
+(5) "Wel" not in s1 ____Blank #5____
+(6) "t" in s2 ____Blank #6____
+
+Answer:
+```
+---
+```markdown
+1. 3
+2. -1
+3. 2
+4. 3.14
+5. False
+6. True
+
+6. Assume that c is a variable that has assigned a string value. Write a Boolean expression to check if c is a new line character.
+
+Answer: c == '\n'
+
+7. Which of the following is NOT correct expression of character 9.
+A. 9
+B. '9'
+C. "9"
+
+Answer: A
+```

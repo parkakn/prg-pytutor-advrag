@@ -1,0 +1,22 @@
+# Exercise 5.1
+
+
+# (Objective 5.1)
+
+# 1) What is the output of the following code? Please also show the execution order of lines.
+
+1 count = 1
+2 while count &lt; 4:
+3   count += 1
+4   print(count, end = ' ')
+
+# 2) Analyze the following code. Is count &lt; 100 always True, always False, or sometimes True or sometimes False at Point A, Point B, and Point C?
+
+count = 0
+while count &lt; 100:
+# Point A
+print("Programming is fun!")
+count += 1
+# Point B
+
+# Point C

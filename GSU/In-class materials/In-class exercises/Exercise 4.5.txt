@@ -1,0 +1,33 @@
+# Exercise Questions
+
+# Exercise 4.5
+
+# (Objective 4.12 – 4.15)
+
+1. Given a string s = "Programming is fun", what is s.startswith('m')?
+
+- A. 0
+- B. 1
+- C. -1
+- D. True
+- E. False
+2. Which of the following statements is the precise meaning for the statement n = 3?
+
+- (a) n is a variable that holds int value 3.
+- (b) n is a variable that references an object that holds int value 3.
+3. Suppose that s1 and s2 are two strings, given as follows:
+
+s1 = "Welcome to Python"
+
+s2 = "123"
+
+What are the results of the following expressions?
+
+- a. s1.isalpha()
+- b. s1.isupper()
+- c. s1.isdigit()
+- d. s2.isdigit()
+- e. s1.count("ao")
+- f. s1.find(s4)
+- g. s1.startswith("Welco")
+- h. s1.endswith("on")

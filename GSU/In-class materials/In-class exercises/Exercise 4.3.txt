@@ -1,0 +1,31 @@
+# Exercise 4.3
+
+
+(Objective 4.5, 4.6, 4.7 and 4.8)
+
+1. What is max("Programming is fun")?
+
+- A. P
+- B. r
+- C. a blank space character
+- D. u
+- E. n
+2. Which of the following statement prints smith\exam1\test.txt?
+
+- A. print("smith\exam1\test.txt")
+- B. print("smith\\exam1\\test.txt")
+- C. print("smith\"exam1\"test.txt")
+- D. print("smith"\exam1"\test.txt")
+3. Assume that c is a variable that has assigned a string value. Write a Boolean expression to check if c is a newline character.
+4. What is the value of the expression ch >= 'A' and ch <= 'Z' if ch is 'A', 'p', 'E', or '5'?
+5. Suppose that s1 and s2 are two strings, given as follows:
+
+s1 = "Welcome to Python"
+
+s2 = "to"
+
+What are the results of the following expressions?
+
+a. "Welco" in s1
+
+b. "Welco" not in s1

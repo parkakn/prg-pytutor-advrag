@@ -1,0 +1,40 @@
+### Summary of Class 1: Introductory Programming Lecture
+
+#### General Purpose
+The initial class of the programming course aims to introduce core concepts of computer hardware, software, operating systems, and Python programming. Students will learn about the foundational tech behind programming and will gain hands-on experience in writing and running simple Python programs.
+
+#### Main Topics Covered
+
+1. **Computer Fundamentals**
+   - **Hardware:** Introduction to basic components like CPU, RAM, and peripherals.
+   - **Software:** Definition and role in executing instructions through programming languages.
+   - **Operating Systems:** Explanation of their function in managing computer activities and running applications.
+
+2. **Types of Programming Languages**
+   - **Machine Language:** Basic binary instructions known as machine code.
+   - **High-level Language:** More readable syntax used to write code, e.g., Python.
+   
+3. **Programming Journey**
+   - Personal progression through various languages (Pascal, C, C++, etc.) leading to Python.
+
+4. **Translation of Code**
+   - Overview of how source code gets translated into machine code using **interpreters** (like Python) and **compilers** (like Java).
+   - Comparison of syntax and outputs between different programming languages.
+
+5. **Introduction to Python**
+   - **General-purpose language:** Applications in diverse fields such as web development and data processing.
+   - **Object-Oriented Programming (OOP):** Eg. creation of reusable software through classes and objects.
+
+6. **History of Python**
+   - Developed by Guido van Rossum in 1990; highlights the differentiation between Python versions (2 vs 3).
+
+7. **Practical Exercises**
+   - Steps to install Python and set up an environment for coding using IDLE.
+   - Instructions to write and run simple Python programs, transitioning from interactive mode to script mode.
+
+#### Critical Details
+- The importance of understanding the relationship between hardware, software, and operating systems.
+- Recognizing Python as both versatile and beginner-friendly, with its applications spanning numerous domains.
+- Engaging in practical exercises reinforces the concepts learned and provides hands-on programming experience.
+
+This overview covers the essential themes and details presented in the lecture, designed to set a foundation for further programming learning.

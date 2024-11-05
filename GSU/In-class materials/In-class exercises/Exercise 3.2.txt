@@ -1,0 +1,35 @@
+# Exercise Questions
+
+# Exercise 3.2
+
+What is the output of the code in (a) and (b) if number is 30 and 352 (Objective 3.2, 3.3, 3.4)
+
+1. What is the output of the code in a) and b) if number is 40 and 55?
+
+(a)
+number
+print(number, even)
+print(number, odd)
+
+(b)
+number
+print(number, even)
+else:
+print(number, odd)
+
+When number is 40
+
+a) output?
+
+b) output?
+
+When number is 55
+
+a) output?
+
+b) output?
+2. Write an if statement that increases pay by 3% if score is greater than 90. Assume we have assigned 100 to score, and 1000 to pay.
+
+score = 100
+pay = 1000
+# Remaining code

@@ -1,0 +1,166 @@
+# CIS 3260 – Introduction to Programming Individual Assignment 5
+
+Submission:
+
+- Add your full name and email address as comments on top of each python program. Add appropriate comments at other locations of your python programs for readability.
+- Name your python program as IA5Q#.py. For example, for question #1, your program should have a name IA5Q1.py
+- For each question, put corresponding answers in a word document. Name your word document as IA5.doc
+- Submit following items into iCollege -&gt; Assessment -&gt; Assignment 4
+- IA5.doc
+- IA5Q1.py
+- IA5Q2.py
+- IA5Q3.py
+
+Some Comments from your instructor:
+
+I highly recommend you use PyCharm to write following two programs. You can open an existing python project and create two new python files IA5Q1.py, IA5Q2.py, and IA5Q3.py.
+
+# 1. Objectives: 4.2, 4.8, 4.9, 4.14
+
+1) [28 points] Let us start with developing a simple text processing tool. This tool prompts the user to enter a string and displays its length and its last character.
+
+Sample Run
+
+Enter a string: Programming is fun
+
+The length of string “Programming is fun” is 18
+
+The last character of string Programming is fun is n
+
+A. [4 points] System Analysis: What is(are) the input(s) and output(s)?
+
+B. [2 points] List the name of a python built-in function which could help us obtain the length of a string.
+
+C. [2 points] Write a print statement to print a double quotation mark.
+
+D. [2 points] Assume the entered string is stored in a variable str, write a python statement to print the LAST character in this string (hint: use negative index).
+
+E. [5 points] System Design: List the steps to get output(s) from input(s)
+
+F. [5 points] Write your program and put your source code here.
+
+G. [2 points] A screenshot of the output of the program.
+
+2) Share with us ONE error you experienced when writing this program. [It is common to experience errors. I will be surprised if you do not see any errors. In case this happens, you can make some errors by yourself.]
+
+A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?
+
+B. [2 pts] How you resolve it?
+
+C. [2 pts] How much time you spent to resolve it?
+---
+# 2. [ Objectives: 3.1-3.7, 4.2,4.8,4.9,4.13,4.14]
+
+1) [33 points] Do you still remember the Major-year programming question in your midterm exam? Let us make some changes on it. Instead of asking the user to enter the major and year on different lines, we prompt the user to enter TWO characters on one single line and display the status and major represented in the characters. The second character indicates the major and the first is a number character (1, 2, 3, or 4), which indicates whether a student is a freshman, sophomore, junior, or senior. Suppose the following characters are used to denote the majors:
+
+|1|M:|Mathematics|
+|---|---|---|
+|2|C:|Computer Science|
+|3|I:|Information Technology|
+
+Sample Run
+
+Enter two characters: 1C
+
+Freshman
+
+Computer Science
+
+A. [4 points] System Analysis: What is(are) the input(s) and output(s)?
+
+B. [5 points] Assume you are going to use a MULTIPLE way decision selection statement. What should be the condition for displaying a “Freshman” in “Computer Science” (please describe the condition in English)? How to represent it using a Python Boolean expression with operators in and and? Assume the entered string is stored in the variable str.
+
+C. [5 points] System Design: List the steps to get output(s) from input(s)
+
+D. [5 points] Write your program and put your source code here.
+
+E. [2 points] A screenshot of the output of the program
+
+2) Share with us TWO errors you experienced when writing this program.
+
+I. Error 1
+
+A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?
+
+B. [2 pts] How you resolve it?
+
+C. [2 pts] How much time you spent to resolve it? 3 pts
+
+II. Error 2
+
+A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?
+
+B. [2 pts] How you resolve it?
+
+C. [2 pts] How much time you spent to resolve it?
+
+# 3. [ Objectives: 3.1-3.7, 4.2,4.8,4.9, 4.14]
+
+1) [39 points] Assume you are working in a library. You are given a task to develop an ISBN-9 to ISBN-10 converter. An ISBN-10 (International Standard Book Number) consists of 10 digits: d1 d2 d3 d4 d5 d6 d7 d8 d9 d10. The last digit, d10, is a checksum, which is calculated from the other nine digits using the following formula:
+---
+(d ¿¿ 1∗1+ d∗2+d3∗3+ d4∗4+ d5∗5+d6∗6+d7∗7+d8∗8+d9∗9)% 11¿2
+If the checksum is 10, the last digit is denoted as X according to the ISBN-10 convention. Write
+a program that prompts the user to enter the first 9 digits and displays the 10-digit ISBN
+(including leading zeros).
+
+Note: your program should be able to check if the input string has a length of 10 or not. DO NOT
+use LOOP.
+
+Sample Run 1Enter the first 9 digits of an ISBN as a string: 3601267Incorrect input. It must have exact 9 digits
+
+Sample Run 2Enter the first 9 digits of an ISBN as a string: 013601267The ISBN-10 number is 0136012671
+
+Sample Run 3Enter the first 9 digits of an ISBN as a string: 013031997The ISBN-10 number is 013031997X
+
+A. [4 points] System Analysis: What is(are) the input(s) and output(s)?
+
+B. [8 points] Write print statements to obtain and display items in a) to d). For each item, we
+need only ONE Python statement. Assume the variable isbn9Str stores one ISBN-9.
+isbn9Str has been initialized a value below. (Note: this step is only for testing, please use
+input statement in your final program.)
+
+isbn9Str ="013031997"
+
+1. a) Length of the string stored in isbn9Str
+2. b) The first digit in the string stored in isbn9Str
+3. c) The last digit in the string stored in isbn9Str (assume isbn9Str stores a 9-digit string)
+4. d) Sum of all digits in the string stored in isbn9Str (assume isbn9Str stores a 9-digit string)
+
+C. [3 points] Assume you are giving three integer variables a, b and c. Each is storing a single-
+digit number. Please write down one expression to concatenate the three single-digits into one
+three-digit string.
+For example, if a=2, b=3,c=9, the three digits should be concatenated into a string “239”
+
+D. [5 points] System Design: List the steps to get output(s) from input(s)
+
+E. [5 points] Write your program and put your source code here.
+
+F. [2 points] A screenshot of the output of program
+---
+# Objectives:
+
+# Week 4
+
+Chapter 33.1 To write Boolean expressions using relational operators (§3.2).3.2 To program with Boolean expressions (§3.3).3.3 To implement selection control using one-way if statements (§3.4).3.4 To implement selection control using two-way if-else statements (§3.5).3.5 To implement selection control with nested if and multi-way if-elif-else statements (§3.6).3.6 To combine conditions using logical operators (and, or, and not) (§3.10).3.7 To use selection statements with combined conditions (§§3.11–3.12).
+
+# Week 7
+
+Chapter 44.1 To solve mathematics problems by using the functions in the math module (§4.2)4.2 To represent and process strings and characters (§4.3).4.3 To encode characters using ASCII and Unicode (§4.3.1).4.4 To use the ord function to obtain a numerical code for a character and the chr function to convert a numerical code to a character (§4.3.2).4.5 To represent special characters using the escape sequence (§4.3.3).4.6 To test substrings using the in and not in operators (§4.3.8).4.7 To compare strings (§4.3.9).4.8 To use string functions min, max, and len (§4.3.10).
+
+# Week 8
+
+Chapter 4
+---
+# 4.9 To obtain a character in a string using the index operator [] (§4.3.11).
+
+# 4.10 To obtain a substring in a string using the slicing operator [start : end] (§4.3.12).
+
+# 4.11 Use repetition operator * to duplicate strings (§4.3.6).
+
+# 4.12 To introduce objects and methods (§4.5).
+
+# 4.13 To introduce the methods in the str class (§4.6).
+
+# 4.14 To program using characters and strings (§4.7.1).
+
+# 4.15 To invoke the print function with the end argument (§4.3.4).

@@ -1,0 +1,81 @@
+```markdown
+# Quiz 1
+
+1. Why do computers use zeros and ones?
+- A. because binary numbers are simplest.
+- B. because combinations of zeros and ones can represent any numbers and characters.
+- C. because digital devices have two stable states and it is natural to use one state for 0 and the other for 1.
+- D. because binary numbers are the bases upon which all other number systems are built.
+
+Answer: C
+
+2. Write a single-line print statement to display the result of πr4 when r=2.5, π=3.14
+
+Answer: print(3.14*2.5*2.5*2.5*2.5) or print(3.14*(2.5**4))
+
+3. Computer can execute the code in ____________.
+- A. assembly language
+- B. high-level language
+- C. machine language
+- D. none of them
+
+Answer: C
+
+4. Which of the following code is correct?
+```
+print("Programming is fun")
+print("Python is fun")
+print("Programming is fun")
+print("Python is fun")
+print("Programming is fun)
+print("Python is fun")
+print("Programming is fun)
+print("Python is fun")
+```
+Answer: the second one.
+
+5. Which of the following statements is true?
+- A. A Python 3 program can always run on a Python 2 interpreter.
+- B. Python 3 is a newer version, but it is not backward compatible with Python 2.
+- C. Python 3 is a newer version, but it is backward compatible with Python 2.
+
+Answer: B
+```
+---
+```markdown
+1. If your program needs to read data from a file, but the file does not exist, an error would occur when running this program. What kind of error is this?
+
+A. runtime error
+B. logic error
+C. syntax error
+
+Answer: A
+
+2. _____________ is a program that runs on a computer to manage and control a computer's activities.
+
+A. Interpreter
+B. Operating system
+C. Python
+D. Compiler
+E. Software
+
+Answer: B
+
+3. A Python line comment begins with ________.
+
+A. /*
+B. $$
+C. //
+D. #
+
+Answer: D
+
+4. ___________ translates high-level language program into machine language program.
+
+A. An assembler
+B. An interpreter
+C. CPU
+D. The operating system
+
+Answer: B
+```

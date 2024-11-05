@@ -1,0 +1,17 @@
+# Exercise 5.5
+
+
+(Objective 5.4)
+
+Will the following program terminate?
+
+balance = 10
+
+while True:
+if balance &lt; 9:
+break
+balance = balance - 9
+
+A. Yes
+
+B. No

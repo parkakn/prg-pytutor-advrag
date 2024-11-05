@@ -1,0 +1,35 @@
+## Summary of Assignment 2 - Introduction to Programming
+
+### General Purpose:
+The assignment aims to reinforce essential programming concepts and skills in Python, particularly focusing on input/output operations, error handling, and basic arithmetic calculations. It seeks to provide students with hands-on experience in writing, debugging, and documenting Python programs.
+
+### Main Topics Covered:
+
+1. **Program Structure and Documentation**:
+   - Students are instructed to include comments within their code and provide their personal details for identification, emphasizing the importance of code readability and documentation practices.
+
+2. **Input/Output Operations**:
+   - The assignment requires writing programs that read user inputs (investment amounts, interest rates, subtotals, gratuity rates) and produce calculated outputs. This covers:
+     - Using the `input()` function to obtain data from users.
+     - Formatting output to display results in a readable manner (e.g., two decimal points for monetary values).
+
+3. **Computation and Formulas**:
+   - Students apply mathematical formulas to compute future investment values and gratuity, aiding their understanding of arithmetic operations and expressions in programming.
+
+4. **Error Identification and Troubleshooting**:
+   - The assignment emphasizes the process of managing errors. Students are asked to document two errors encountered in coding, classify them (syntax, runtime, logical), explain resolutions, and estimate the time spent, fostering skills in debugging and problem-solving.
+
+5. **Programming Style and Syntax**:
+   - Students are introduced to sound programming practices and proper syntax, reinforcing the importance of following coding standards.
+
+### Critical Details:
+- Each Python program must have a designated naming format (IA2Q#.py) and must be accompanied by a Word document (IA2.doc) that outlines responses related to input/output specifics, computation steps, and error experiences.
+- The assignment is divided into two main questions, each requiring practical code implementation and theoretical reflection on error handling.
+
+### Learning Objectives:
+Through this assignment, students will:
+- Apply the fundamental concepts of programming such as variables, user input, and mathematical operations.
+- Identify and rectify common programming errors.
+- Enhance their understanding of how to articulate programming processes, including error handling and output generation.
+
+This structured approach lays a solid foundation for further exploration into programming concepts in subsequent course weeks.

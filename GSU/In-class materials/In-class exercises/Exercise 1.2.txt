@@ -1,0 +1,49 @@
+# Exercise Questions
+
+# Exercise 1.2
+
+1. Why do computers use zeros and ones?
+
+- A. because combinations of zeros and ones can represent any numbers and characters.
+- B. because digital devices have two stable states and it is natural to use one state for 0 and the other for 1.
+- C. because binary numbers are simplest.
+- D. because binary numbers are the bases upon which all other number systems are built.
+2. Computer can execute the code in ____________.
+
+- A. machine language
+- B. assembly language
+- C. high-level language
+- D. none of the above
+3. __________ translates high-level language program into machine language program.
+
+- A. An assembler
+- B. A compiler
+- C. CPU
+- D. The operating system
+4. Python was created by ____________.
+
+- A. James Gosling
+- B. Bill Gates
+- C. Steve Jobs
+- D. Guido van Rossum
+- E. Google
+5. Which of the following statements is true?
+
+- A. Python 3 is a newer version, but it is backward compatible with Python 2.
+- B. Python 3 is a newer version, but it is not backward compatible with Python 2.
+- C. A Python 3 program can always run on a Python 2 interpreter.
+6. ________ is interpreted.
+
+- A. Python
+- B. C++
+- C. C
+---
+# Exercise Questions
+
+# Exercise Questions:
+
+1. Please watch the video presented by Guido van Rossum and answer the following questions:
+
+What is ABC?
+2. How long did Guido spend to create Python?
+3. Is Python programming language named after the snake python?

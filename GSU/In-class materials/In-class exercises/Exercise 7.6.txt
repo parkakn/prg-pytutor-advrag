@@ -1,0 +1,13 @@
+# Exercise 7.6
+
+
+(Objectives 7.10, 7.11)
+
+Create a function to remove the first and last element of the passed list. The function header should be defined as below:
+
+def chop(lst)
+You can use the following code to test if chop is created correctly:
+
+t = [1, 2, 3, 4]
+chop(t)
+print(t)

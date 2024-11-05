@@ -1,0 +1,53 @@
+# Exercise 1.1
+
+
+1. 1. ________ is the physical aspect of the computer that can be seen.
+
+A. Hardware
+
+B. Software
+
+C. Operating system
+
+D. Application program
+2. 2. ____________ are instructions to the computer. (Multiple correct answers)
+
+A. Hardware
+
+B. Software
+
+C. Programs
+
+D. Keyboards
+3. 3. ____________ is an operating system.
+
+A. Java
+
+B. C++
+
+C. Windows XP
+
+D. Visual Basic
+
+E. Python
+4. 4. ____________ is a program that runs on a computer to manage and control a computer's activities.
+
+A. Operating system
+
+B. Python
+
+C. Modem
+
+D. Interpreter
+
+E. Compiler
+5. 5. Computer programs/software can also be used to control a robot. As shown in the picture below, food delivery robots have already started to deliver customer food orders in Northern California. Small service robots now show up to restaurants, get loaded with food, and then travel to hungry patrons.
+---
+# Exercise Question
+
+
+To control this robot, what software do we need? Please explain the feature(s) of the software.
+
+( For example, a navigation software decides the moving direction. )
+
+Reference: Food Delivery Robots Take to the Streets

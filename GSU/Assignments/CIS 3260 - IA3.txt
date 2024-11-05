@@ -1,0 +1,196 @@
+# CIS 3260 – Introduction to Programming Individual Assignment 3
+
+Submission:
+
+- Add your full name and email address as comments on top of each python program. Add appropriate comments at other locations of your python programs for readability.
+- Name your python program as IA3Q#.py. For example, for question #1, your program should have a name IA3Q1.py
+- For each question, put corresponding answers in a word document. Name your word document as IA3.doc
+- Submit following items into iCollege -&gt; Assessment -&gt; Assignment 3
+- IA3.doc
+- IA3Q1.py
+- IA3Q2.py
+- IA3Q3.py
+
+Some Comments from your instructor:
+
+I highly recommend you use PyCharm to write the following two programs. You can open an existing python project and create two new python files IA3Q1.py, IA3Q2.py, and IA3Q3.py.
+
+# 1. Objectives: 3.1, 3.2, 3.3
+
+1. [32 points] Assume that you're collaborating with an HR department to design software that calculates bonus pay based on an employee's weekly work hours. HR staff will input the number of hours, and the software will then display the corresponding bonus amount. If an employee works more than 45 hours in a week, they will receive a bonus of $2,000.
+
+Sample Run 1:
+
+Enter weekly work hours($): 45
+
+Bonus pay is 2000
+
+Sample Run 2:
+
+Enter weekly work hours($): 41
+
+Bonus pay is 0
+
+A. [3 points] System Analysis: What is(are) the input(s) and output(s)?
+
+B. [5 points] Suppose your manager requests that you implement this program using a single ONE-WAY decision selection statement. How would you describe the condition in plain English? Additionally, how would you represent this condition as a Boolean expression in Python?
+
+C. [5 points] System Design: List the steps to get output(s) from input(s).
+
+D. [5 points] Write your program, copy, and paste your source code here.
+
+E. [2 points] Please attach a screenshot displaying a sample run of your program.
+2. Share with us TWO errors you experienced when writing this program. [ It is common to experience errors. I will be surprised if you do not see any errors. In case this happens, you can make some errors by yourself.]
+---
+# I. Error 1
+
+|A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?| |
+|---|---|
+|B. [2 pts] How you resolve it?| |
+|C. [2 pts] How much time you spent to resolve it? 3 pts| |
+
+# II. Error 2
+
+|A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?| |
+|---|---|
+|B. [2 pts] How you resolve it?| |
+|C. [2 pts] How much time you spent to resolve it?| |
+
+# 2. Objectives: 3.1, 3.2, 3.4, 3.6, 3.7
+
+# 1) [34 points] You are currently developing educational software to teach children about multiples of 5. In the application, children are prompted to input a number ranging from 0 to 100 (inclusive). The software then displays a message indicating whether the provided number is a multiple of 5 within the specified range.
+
+Sample Run 1:
+
+Enter a number between 0 and 100: 2
+
+Sorry, 2 is not a multiple of 5 in the range from 0 and 100
+
+Sample Run 2:
+
+Enter a number between 0 and 100: 115
+
+Sorry, 115 is not a multiple of 5 in the range from 0 and 100
+
+Sample Run 3:
+
+Enter a number between 0 and 100: 20
+
+Yes, 20 is a multiple of 5 in the range from 0 and 100
+
+# A. [5 points] System Analysis: What is(are) the input(s) and output(s)?
+
+# B. [5 points] Assume you are going to use a single TWO-WAY decision selection statement. How would you describe the condition in plain English? Additionally, how would you represent this condition as a Boolean expression in Python? You may need to use logical operator.
+
+# C. [5 points] System Design: List the steps to get output(s) from input(s)
+
+# D. [5 points] Write your program, copy, and paste your source code here.
+
+# E. [2 points] Please attach a screenshot displaying a sample run of your program.
+
+# 2) Share with us TWO errors you experienced when writing this program.
+
+# I. Error 1
+
+|A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?| |
+|---|---|
+|B. [2 pts] How you resolve it?| |
+|C. [2 pts] How much time you spent to resolve it? 3 pts| |
+
+# II. Error 2
+
+|A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?| |
+|---|---|
+|B. [2 pts] How you resolve it?| |
+|C. [2 pts] How much time you spent to resolve it?| |
+---
+# A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?
+
+# B. [2 pts] How you resolve it?
+
+# C. [2 pts] How much time you spent to resolve it?
+
+# 3. Objectives: 3.1, 3.2, 3.5, 3.6, 3.7
+
+# 1) [34 points] Assume you are going to develop an application on a mobile phone. The
+application allows the user to type a lowercase letter, and then it displays the corresponding
+number. The mapping rule is shown below:
+
+| | |2abe|3 del|
+|---|---|---|---|
+| | |5 ikl|6mno|
+| |pqrs| | |
+
+Write a program that prompts the user to enter a lowercase letter and displays its corresponding number.
+
+Sample Run 1:
+
+Enter a lowercase letter: a
+
+The corresponding number is 2
+
+Sample Run 2:
+
+Enter a lowercase letter: A
+
+Invalid input
+
+# A. [5 points] System Analysis: What is(are) the input(s) and output(s)?
+
+# B. [5 points] Assume you are going to use a single MULTIPLE-WAY decision selection statement. In plain English, how would you describe the condition that prompts the program to display the number 4. Additionally, how would you represent this condition as a Boolean expression in Python? You may need to use logical operator.
+
+# C. [5 points] System Design: List the steps to get output(s) from input(s)
+
+# D. [5 points] Write your program, copy, and paste your source code here.
+
+# E. [2 points] Please attach a screenshot displaying a sample run of your program.
+
+# 2) Share with us TWO errors you experienced when writing this program.
+
+# I. Error 1
+
+# A. [2 pts] Explain what is the type of the error (syntax, run-time, or logical error)?
+
+# B. [2 pts] How you resolve it?
+
+# C. [2 pts] How much time you spent to resolve it? 3 pts
+
+# II. Error 2
+---
+# Objectives:
+
+Week 1
+# Chapter 1
+
+- 1.1 To explain and describe the concepts of computer hardware, programs, and operating systems (§1.2 -1.4)
+- 1.2 To describe the history of Python (§1.5)
+- 1.3 To explain the basic syntax of a Python program (§1.6)
+- 1.4 To write and run a simple Python program (§1.6)
+
+Week 2
+# Chapter 1
+
+- 1.5 To use sound programming style and document programs properly (§1.7)
+- 1.6 To explain the differences between syntax errors, runtime errors, and logic errors (§1.8)
+
+# Chapter 2
+
+- 2.1 To write programs that perform simple computations (§2.2)
+- 2.2 To obtain input from a program’s user by using the input function and to convert strings to numbers using the int and float functions (§2.3)
+- 2.3 To use identifiers to name elements such as variables and functions (§2.4)
+- To assign data to variables (§2.5)
+- 2.4 To define named constants (§2.7)
+- 2.5 To use the operators +, −, *, /, //, %, and ** (§2.8)
+- 2.6 To program using division and remainder operators (§2.9)
+- 2.7 To write and evaluate numeric expressions (§2.10)
+
+Week 3
+# Chapter 2
+
+- 2.9 To use augmented assignment operators to simplify coding (§2.11)
+- 2.10 To perform numeric type conversion and rounding with the round function (§2.12)
+- 2.11 To describe the software development process and apply it to develop the loan payment program (§2.14)
+---
+# Week 4
+
+Chapter 33.1 To write Boolean expressions using relational operators (§3.2).3.2 To program with Boolean expressions (§3.3).3.3 To implement selection control using one-way if statements (§3.4).3.4 To implement selection control using two-way if-else statements (§3.5).3.5 To implement selection control with nested if and multi-way if-elif-else statements (§3.6).3.6 To combine conditions using logical operators (and, or, and not) (§3.10).3.7 To use selection statements with combined conditions (§§3.11–3.12).

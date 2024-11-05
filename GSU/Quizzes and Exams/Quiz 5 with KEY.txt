@@ -1,0 +1,111 @@
+```markdown
+# Quiz 5
+
+1. Arguments to functions always appear within __________.
+
+A. parentheses
+B. quotation marks
+C. curly braces
+D. brackets
+
+Answer: A
+
+2. Does the program below cause errors?
+
+```python
+import math
+def main():
+math.sin(pi)
+
+main()
+```
+
+Answer: YES.
+
+3. A function _________.
+
+A. must have at least one parameter
+B. must always have a return statement to return a value
+C. must always have a return statement to return multiple values
+D. may have no parameters
+
+Answer: D
+
+4. The header of a function consists of ____________.
+
+A. function name and parameter list
+B. function name
+C. parameter list
+
+Answer: A
+
+5. Given the following function, what will be displayed by the call nPrint('a', 4)?
+
+```python
+def nPrint(message, n):
+while n > 0:
+print(message, end='')
+n -= 1
+```
+
+A. aaa
+B. infinite loop
+C. aaaaa
+D. aaaa
+```
+---
+### 6. Given the following function, what will be displayed by the call nPrint(n=4, message='a')?
+
+```python
+def nPrint(message, n):
+while n > 0:
+print(message, end='')
+n -= 1
+```
+
+A. aaaa
+B. aaaaa
+C. infinite loop
+D. aaa
+E. invalid call
+
+**Answer:** A
+
+### 7. Does the following code have errors? If yes, what is the error and how to correct it?
+
+```python
+def function(x):
+print(x)
+x = 4.5
+
+function(3)
+print(x)
+```
+
+**Answer:** Yes. x inside function differs from the x outside of the function. To use x in the print statement outside of the function, we need to define that x first.
+
+### 8. Write a function header for the following task and indicate whether the function should return a value:
+
+**Task:** Obtain the number of days for a month, given the month and year.
+
+A) Function Header: `def get_days_in_month(month, year):`
+
+B) Whether the function should return a value? Yes.
+---
+```markdown
+# Answer:
+1. def getDays(month,year)
+2. Yes
+
+3. Assume function f is defined below. Which choice below is INCORRECT function calls.
+
+def f(p1, p2, p3):
+return p1=p2+p3
+
+A. f(p1, p2=1, p3=2)
+B. f(1, 2, 3)
+C. f(p1=1, p2, p3)
+D. f(p1, p2, p3=1)
+
+Answer: C
+```

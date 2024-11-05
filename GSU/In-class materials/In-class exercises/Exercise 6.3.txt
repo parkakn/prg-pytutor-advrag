@@ -1,0 +1,43 @@
+# Exercise Questions
+
+# Exercise 6.3
+
+# (Objectives 6.4, 6.5)
+
+1. Given that add is a function that expects two integer parameters and returns their sum, and given that two variables, euro_sales and asia_sales, have already been defined.
+
+Write a statement that calls add to compute the sum of euro_sales and asia_sales and that associates this value with a variable named eurasia_sales.
+
+Sorry, you are not able to test the correctness of your answer!
+2. Assume that print_todays_date is a function that uses no parameters and returns no value. Write a statement that calls (invokes) this function.
+
+Sorry, you are not able to test the correctness of your answer!
+3. Given the following function, what will be displayed by the call nPrint('a', 4)?
+
+def nPrint(message, n):
+while n > 0:
+print(message, end='')
+n -= 1
+
+A. aaaaa
+
+B. aaaa
+
+C. aaa
+
+D. invalid call
+
+E. infinite loop
+4. Does the following code have errors? If yes, what is the error?
+
+def function(x):
+print(x)
+x = 4.5
+y = 3.4
+print(y)
+
+x = 2
+y = 4
+function(x)
+print(x)
+print(y)

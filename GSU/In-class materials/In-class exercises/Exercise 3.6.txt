@@ -1,0 +1,24 @@
+# Exercise Questions
+
+# Exercise 3.6
+
+# (Objective 3.8)
+
+1. Clunker Motors Inc. is recalling all vehicles from model years 1995-1998 and 2004-2006. Write a program to read a model year. Display a message “Please recall!” if the value of modelYear does fall within the two recall ranges; Otherwise, display a message “No need for a recall”.
+
+System Analysis: What is(are) the input(s) and output(s)?
+2. Assume your manager asks you to complete this program by using a TWO way decision selection statement. What should be the condition? How to represent it using a Boolean expression (may use logical operator) in Python?
+3. System Design: List the steps to get output(s) from input(s)
+4. Write your program.
+
+Let us simulate a lottery system. Write a program and read two numbers from user. One is the guess number; The other is the lottery number. The award will be calculated according to the rules below.
+
+award is $1000 if guess number is the same as lottery number.
+award is $500 if distance between guess number and lottery number is less than 3
+award is $100 if distance between guess number and lottery number is less than 6
+award is no in other cases
+
+System Analysis: What is(are) the input(s) and output(s)?
+Assume your manager asks you to complete this program by using a Multiple way decision selection statement. What should be the condition to set award as $500? How to represent it using a Boolean expression (may use logical operator) in Python?
+System Design: List the steps to get output(s) from input(s)
+Write your program.

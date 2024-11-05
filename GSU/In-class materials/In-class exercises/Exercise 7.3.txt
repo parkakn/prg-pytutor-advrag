@@ -1,0 +1,16 @@
+# Exercise 7.3
+
+
+(Objectives 7.7)
+
+Write a program to complete tasks below:
+
+1. Create a list of student ids (called as studentid_list)
+2. Put following items into studentid_list:
+3. - 1901, 1905, 1906, 1908
+
+Traverse elements in studentid_list
+4. Count the number of elements 1901 in studentid_list
+5. Display count
+6. Change student id from 1901 to 1902 in the list
+7. Display the updated studentid_list

@@ -1,0 +1,26 @@
+# Exercise Questions
+
+# Exercise 5.4
+
+# (Objective 5.4)
+
+1. Suppose the input is 2 3 4 5 0 (one number per line). What is the output of the following code?
+
+number = 0
+sum = 0
+
+for count in range(3):
+number = int(input("Enter an integer: "))
+sum += number
+
+print("sum is", sum)
+print("count is", count)
+
+2. Convert the following while loop into a for loop.
+
+i = 1
+sum = 0
+
+while sum &lt; 10000:
+sum = sum + i
+i += 1

@@ -1,0 +1,23 @@
+# Exercise 6.1
+
+
+(Objective 6.1)
+
+1. Arguments to functions always appear within __________.
+
+- A. brackets
+- B. parentheses
+- C. curly braces
+- D. quotation marks
+2. Does the program below cause syntax errors?
+
+import math
+def main():
+math.sin(math.pi)
+
+main()
+- A. Yes
+- B. No
+3. a. What do you think are the advantages of using function?
+
+b. In which case, will you prefer to create your own function?

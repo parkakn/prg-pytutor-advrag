@@ -1,0 +1,26 @@
+# Exercise 4.2
+
+
+(Objective 4.2, 4.3, 4.4)
+
+1. Which of the following is the correct expression of character 4?
+
+- A. 4
+- B. '4'
+- C. "4"
+2. The Unicode of 'a' is 97. What is the Unicode for 'c'? *
+
+- A. 97
+- B. 98
+- C. 99
+- D. 100
+3. What will be displayed by print(ord('z') - ord('a'))? *
+
+- A. 25
+- B. 26
+- C. a
+- D. z
+4. Will print(chr(4)) display 4? *
+
+- A. Yes
+- B. No

@@ -1,0 +1,56 @@
+```markdown
+# Quiz 2
+
+1. **[LO3.1]** - The not equal comparison operator is __________.
+- A. !=
+- B. =
+- C. ==
+- D. <>
+
+Answer: A
+
+2. **[LO2.9]** - What is x after the following statements?
+x = 2
+y = 2
+x *= y + 1
+- A. x is 3
+- B. x is 4
+- C. x is 5
+- D. x is 6
+
+Answer: D
+
+3. **[LO3.1]** - What are the results for the following Boolean expressions in Python?
+x=6, y=3, z=3, s=”6”
+- (1) x > y Answer: False
+- (2) x != y Answer: True
+- (3) (x + y) == z Answer: False
+- (4) z % 2 != 0 Answer: True
+- (5) s == x Answer: False
+
+4. **[LO3.1]** - Assume x is an integer. Write a simple Boolean Expression as a condition to verify if x is a multiple of THREE. (Note that the result should be True if the condition is matched; No need to print out the result)
+Answer: x%3==0
+
+5. **[LO2.8]** - What are the results for the following Numerical Expressions in Python?
+For example, the result of the numerical expression 5//2 is 1 in Python.
+- (1) 5/3 Answer: 1.7
+- (2) 5//3 Answer: 1
+- (3) 5%3 Answer: 2
+- (4) 3%5 Answer: 3
+- (5) 2**3 Answer: 8
+```
+---
+```markdown
+6. [LO3.3]
+- What is the output of the code in a) if number is 8?
+- if numberprint(number, 0:1sF=even.
+- print(number, 1s odd
+- Output: even
+- Output: add
+- Output: @ven
+odd
+- Output: even
+even
+
+Answer: The third choice
+```

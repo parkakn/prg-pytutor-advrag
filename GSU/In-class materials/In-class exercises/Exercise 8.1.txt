@@ -1,0 +1,33 @@
+# Exercise Questions
+
+# Exercise 8.1
+
+(Objectives 8.1, 8.2, 8.3)
+
+# 1) What will be displayed by the following code?
+
+m = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(m[0][0])
+
+A. 1
+B. 2
+C. 4
+D. 7
+
+# 2) What will be displayed by the following program?
+
+values = [[3, 4, 5, 1], [33, 6, 1, 2]]
+
+v = values[0][0]
+for row in range(0, len(values)):
+for column in range(0, len(values[row])):
+if v < values[row][column]:
+v = values[row][column]
+
+print(v)
+
+A. 1
+B. 3
+C. 5
+D. 6
+E. 33

@@ -1,0 +1,10 @@
+# Exercise 7.5
+
+
+# (Objectives 7.9)
+
+Create one text file review.txt with the content below. Write a program countWords.py at the same folder to count the number of words “well” in the file review.txt.
+
+review.txt
+
+I have a niece with a lot of allergies- both foods and environmental so I was concerned about these finger paints. He did very well with them. Being 18 months old, this was a great sensory activity. Her first picture was using the blue paint- her choice. Easy clean up for mom and dad as well.

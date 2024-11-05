@@ -1,0 +1,121 @@
+# Exercise 6.6
+
+
+# (Objectives 6.8)
+
+1. __________ is a simple but incomplete version of a function.
+
+- A. A stub
+- B. A function
+- C. A function developed using bottom-up approach
+- D. A function developed using top-down approach
+2. Assume you are given a program CountLettersInList.py that counts the occurrences of each letter in a list of characters.
+
+Mark all function calls in red
+3. Let us reverse the software development process, please draw a system design diagram by reading the program
+
+# Sample Run
+
+The lowercase letters are:
+
+l z b y s k f u s i t n k b m h h e e h
+
+r g a c l p g j s c d y u o j y g q f o
+
+d l o j c k v k p z t m q e u r s r h c
+
+h c m d s q j r w k u y r g i x t w m l
+
+x c o x v k g k n d d y z q z i g x j o
+
+The occurrences of each letter are:
+
+1 a 2 b 6 c 5 d 3 e 2 f 6 g 5 h 3 i 5 j
+
+7 k 4 l 4 m 2 n 5 o 2 p 4 q 5 r 5 s 3 t
+
+4 u 2 v 2 w 4 x 5 y 4 z
+
+CountLettersInList.py
+
+import RandomCharacter # Defined in Listing 6.9
+
+def main():
+# Create a list of characters
+chars = createList()
+
+# Display the list
+print("The lowercase letters are:")
+displayList(chars)
+
+# Count the occurrences of each letter
+counts = countLetters(chars)
+
+# Display counts
+print("The occurrences of each letter are:")
+displayCounts(counts)
+
+# Create a list of characters
+def createList():
+---
+# Exercise Questions
+
+# Python Exercise Questions
+
+# Question 1:
+
+Write a Python function to create an empty list and add randomly generated lowercase letters to it.
+
+# Question 2:
+
+Write a Python function to display a list of characters with 20 characters on each line.
+
+# Question 3:
+
+Write a Python function to count the occurrences of each letter in a list of characters.
+
+# Question 4:
+
+Write a Python function to display the counts of each letter.
+
+# Code Snippet:
+
+# Create an empty list
+chars = []
+
+# Create lowercase letters randomly and add them to the list
+for i in range(100):
+chars.append(RandomCharacter.getRandomLowerCaseLetter())
+
+# Return the list
+return chars
+
+# Display the list of characters
+def displayList(chars):
+# Display the characters in the list 20 on each line
+for i in range(len(chars)):
+if (i + 1) % 20 == 0:
+print(chars[i])
+else:
+print(chars[i], end=' ')
+
+# Count the occurrences of each letter
+def countLetters(chars):
+# Create a list of 26 integers with initial value 0
+counts = 26 * [0]
+
+# For each lowercase letter in the list, count it
+for i in range(len(chars)):
+counts[ord(chars[i]) - ord('a')] += 1
+
+return counts
+
+# Display counts
+def displayCounts(counts):
+for i in range(len(counts)):
+if (i + 1) % 10 == 0:
+print(counts[i], chr(i + ord('a')))
+else:
+print(counts[i], chr(i + ord('a')), end=' ')
+
+main() # Call the main function

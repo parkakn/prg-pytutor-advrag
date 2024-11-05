@@ -1,0 +1,37 @@
+# Exercise Questions
+
+# Exercise 3.3
+
+# (Objective 3.5)
+
+1. The following code displays ___________.
+
+temperature = 50
+
+if temperature >= 100:
+print("too hot")
+elif temperature <= 40:
+print("too cold")
+else:
+print("just right")
+
+Options:
+
+- A. too hot
+- B. too cold
+- C. just right
+- D. too hot too cold just right
+2. Does the following program work? If not, what is wrong in the following code?
+
+score = 95
+
+if score >= 60.0:
+print("Grade is D")
+elif score >= 70.0:
+print("Grade is C")
+elif score >= 80.0:
+print("Grade is B")
+elif score >= 90.0:
+print("Grade is A")
+else:
+print("Grade is F")

@@ -1,0 +1,36 @@
+# Exercise 6.2
+
+
+(Objectives 6.2, 6.3)
+
+# 1) The header of a function consists of ____________.
+
+A. function name
+
+B. function name and parameter list
+
+C. parameter list
+
+# 2) A function _________.
+
+A. must have at least one parameter
+
+B. may have no parameters
+
+C. must always have a return statement to return a value
+
+D. must always have a return statement to return multiple values
+
+# 3) Write the definition of a function twice, that receives an integer parameter and returns an integer that is twice the value of the parameter.
+
+[ Note: choose any parameter name you like ]
+
+# 4) Write function headers for the following functions (and indicate whether the function should return a value):
+
+[ Note: choose any function name and parameter name you like ]
+
+(a) Computing a sales commission, given the sales amount and the commission rate.
+
+(b) Printing the calendar for a month, given the month and year.
+
+(c) Computing a square root.

@@ -1,0 +1,17 @@
+# Exercise 1.4
+
+
+(Objective 1.5, 1.6)
+
+1. Create a python program test.py, put the following five lines into your test.py
+(or you can copy them from test.txt). Run your program and answer the following questions.
+
+1. How many errors can you find out?
+2. What are they? And what is the type of each error?
+3. How to correct those errors?
+
+print("Programming is fun”)
+prin("Python")
+print("Computer Science")
+print(1/0)
+print(1.0/0)

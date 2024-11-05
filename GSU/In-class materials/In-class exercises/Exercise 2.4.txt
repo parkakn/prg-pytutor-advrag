@@ -1,0 +1,34 @@
+# Exercise 2.4
+
+
+(Objective 2.9, 2.10)
+
+# 1. What is x after the following statements?
+
+x = 1
+y = 2
+x *= y + 1
+
+Choose the correct option:
+
+- A. x is 1
+- B. x is 2
+- C. x is 3
+- D. x is 4
+
+# 2. Write a program that asks the user to enter the purchase amount and then displays the sales tax. Assume the sales tax is 6% of the purchase.
+
+Sample run:
+
+Enter purchase amount: 197.55
+Sales tax is 11.853
+
+Steps you could follow:
+
+1. Step 1: get input from user for the purchase amount, store it into variable “price”
+2. Step 2: calculate the sales tax, store it into variable “tax”
+3. Step 3: display the sales tax
+
+# 3. Continue question 2, how to modify your program and let it display the sales tax with two digits after the decimal point.
+
+Hint: use round function

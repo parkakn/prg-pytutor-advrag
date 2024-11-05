@@ -1,0 +1,22 @@
+# Exercise 2.3
+
+
+# Objectives 2.3, 2.8
+
+1. Suppose m and r are integers. Write a Python expression for mr2. What is 2 * 23?
+
+2. Write a program that reads in the radius and length of a cylinder and computes the area and volume using the following formulas:
+
+area = radius * radius * π
+
+volume = area * length
+
+Sample Run
+
+Enter the radius of a cylinder: 5.5
+
+Enter the length of a cylinder: 12.9
+
+The area is 95.0330975
+
+The volume of the cylinder is 1225.92695775

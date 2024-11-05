@@ -1,0 +1,12 @@
+# Exercise 2.5
+
+
+(Objective 2.11)
+
+Let us apply the software development process to the following problem. Describe what you get after completing the system analysis and system design stage separately.
+
+Write a program that reads in an investment amount, the annual interest rate, and the number of years, and then displays the future investment value using the following formula:
+
+futureInvestmentValue = investmentAmount × (1 + monthlyInterestRate) ^ numberOfMonths
+
+For example, if you enter the amount 1000, an annual interest rate of 4.25%, and the number of years as 1, the future investment value is 1043.33.
